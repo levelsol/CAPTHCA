@@ -1,5 +1,6 @@
-train: C:\Users\kingo\Downloads\recpcha v2 v3 ongoing\dataset\images\train
-val: C:\Users\kingo\Downloads\recpcha v2 v3 ongoing\dataset\images\val
-
+# Dataset configuration for YOLO training
+path: /root/CAPTHCA/dataset
+train: images/train
+val: images/val
 nc: 8
 names: ["bus", "car", "bike", "pedestrian_crossing", "fire_hydrant", "traffic_light", "motorcycle", "crosswalk"]
